@@ -4,6 +4,7 @@
 
 // Google font import
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,400italic|Roboto+Mono);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:600,400,400italic|Open+Sans);
 
 // Custom variables
 
@@ -21,9 +22,9 @@ $border-width:               .0625rem !default;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$font-family-sans-serif:     "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:     'Open Sans', sans-serif;
 $font-family-serif:          Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:      "Roboto Mono", "Courier New", monospace !default;
+$font-family-monospace:      "JetBrains Mono", monospace !default;
 $font-family-base:           $font-family-sans-serif !default;
 
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
@@ -62,6 +63,17 @@ $danger:           #f83e4b;
 $warning:          #F5A623;
 $info:             #09ABF6;
 
+//Containers
+$x-small: 720px;
+$small: 800px;
+$medium: 1200px;
+$large: 1300px;
+
+// Breakpoints
+$mobile: 620px;
+$tablet: $small;
+$desktop: $medium;
+
 // Tables
 $table-border-color: #d0d0d0 !default;
 $table-striped-color: #f2f2f2 !default;
@@ -77,3 +89,27 @@ $small-screen: 600px !default;
 $medium-screen: 992px !default;
 $large-screen: 1200px !default;
 $larger-screen: 1600px !default;
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/jetbrains/eot/JetBrainsMono-Regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/jetbrains/eot/JetBrainsMono-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/jetbrains/woff2/JetBrainsMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/jetbrains/woff/JetBrainsMono-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/fonts/jetbrains/tff/JetBrainsMono-Regular.tff')  format('truetype'), /* Safari, Android, iOS */
+}
+
+$code-font-color: #B4B8C4;
+$string: #92d192;
+$variable: #f2777a;
+$property: #abb2bf;
+$number: #fca369;
+$operator: #ac8d58;
+$punctuation: #d5d8df;
+$comment: #848991;
+$function: #62cfcf;
+$keyword: #ffeead;
+$attribute: #ffd479;
+$class: #e1a6f2;
+$tag: #6ab0f3;
+$error: #f2777a;

@@ -1,4 +1,11 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
-  image: pong.png
-  github: https://github.com/renyuanz/leonids
+- name: PasteAndGo 2
+  descr: "A simple free tweak for jailbroken iOS devices, made in Objective-C and theos/logos, that adds Paste and Search/Go options to several web browsers."
+  image: amodrono.png
+  github: https://github.com/iAlex11/PasteAndGo2
+  gitlab: https://gitlab.com/iAlex11/PasteAndGo2
+  blogpost: https://gitlab.com/iAlex11/PasteAndGo2
+
+- name: LimeAPT
+  descr: "A drama-free fast, easy-to-use, powerful, and beautiful open-source package manager (APT GUI) for jailbroken iDevices running iOS/iPadOS 13 or later."
+  image: amodrono.png
+  github: https://github.com/iAlex11/LimeAPT

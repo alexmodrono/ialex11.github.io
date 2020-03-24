@@ -34,12 +34,12 @@ kramdown:
 #
 owner:
   name: amodrono
-  avatar: leonids-logo.png
+  avatar: amodrono.png
   job: "Proud Spanish Programmer"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  bio: "JavaScript, C, C++, Swift, Objective-C, and Python developer. Aspiring computer science and software engineer. 🇪🇸"
   email:
   disqus-shortname:
-  twitter: #username
+  twitter: Semiak_
   facebook: #username
   google:
     plus: #username
@@ -48,13 +48,13 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
-  gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  github: iAlex11
+  gitlab: Semiak
+  stackoverflow: 9647800/ialex11   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   skype: #username
   xing: #username
-  instagram: #username
+  instagram: alex16mvr
   lastfm: #username
   tumblr: #username
   pinterest: #username
